@@ -1,0 +1,78 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "Kshitiz",
+    "patterns": [{
+            "include": "#keywords"
+        },
+        {
+            "include": "#strings"
+        }
+    ],
+    "repository": {
+        "variables": {
+            "match": "int|double|float|long|char|boolean|String|short",
+            "name": "variable.language"
+        },
+        "keywords": {
+            "patterns": [{
+                "name": "keyword.control.gram",
+                "match": "\\b(if|else|do|while|for|return|ksh)\\b"
+            }]
+        },
+        "rules": {
+            "patterns": [{
+                    "name": "keyword.control",
+                    "match": "RULE (<[a-zA-Z]+>)",
+                    "captures": {
+                        "0": {},
+                        "1": {
+                            "name": "variable.name.rulename"
+                        },
+                        "2": {
+                            "name": "variable.character.escape.ruletext"
+                        },
+                        "3": {
+                            "name": "variable.name.rulename"
+                        },
+                        "4": {
+                            "name": "variable.name.rulename"
+                        }
+                    }
+                },
+                {
+                    "name": "keyword.control",
+                    "match": "{(static\\s*:)?\\s*([a-zA-Z0-9]*)\\s*}",
+                    "captures": {
+                        "2": {
+                            "name": "variable.other"
+                        }
+                    }
+                },
+                {
+                    "name": "keyword.control",
+                    "match": "{(dynamic\\s*:)?\\s*([a-zA-Z0-9]*)\\s*}",
+                    "captures": {
+                        "2": {
+                            "name": "variable.other"
+                        }
+                    }
+                },
+                {
+                    "name": "keyword.control.gram",
+                    "match": "\\b(RULE|static|dynamic)\\b"
+                }
+            ]
+
+        },
+        "strings": {
+            "name": "string.quoted.double.ksh",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [{
+                "name": "constant.character.escape.ksh",
+                "match": "\\\\."
+            }]
+        }
+    },
+    "scopeName": "source.ksh"
+}
