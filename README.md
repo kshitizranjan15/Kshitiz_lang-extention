@@ -2,7 +2,7 @@
 ### language extention:- .ksh
 ![](https://img.shields.io/badge/Language-Typescript-green)   
 ![](https://img.shields.io/badge/Tools-VscodeDevelopmentKit-red)   
-![](https://img.shields.io/badge/Project-Vs-Code Language Support-blue)
+![](https://img.shields.io/badge/Project-Vs-Code-Language-Support-blue)
 ## kshitiz-lang README
 In this file i will say how to use this kshitiz-lang extention and i made this extention for what purpose.
 
