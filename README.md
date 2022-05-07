@@ -1,11 +1,14 @@
 # Kshitiz_lang_extention
-### language extension:- .ksh
+
 ![](https://img.shields.io/badge/Language-Typescript-green)   
 ![](https://img.shields.io/badge/Tools-VscodeDevelopmentKit-red)   
 ![](https://img.shields.io/badge/Project-VsCodeLanguageSupport-blue)
 ## kshitiz-lang README
 In this file i will say how to use this kshitiz-lang extention and i made this extention for what purpose.
 
+### language extension:- .ksh
+## Logo Of Language Extention:-
+<img src="https://github.com/kshitizranjan15/Kshitiz_lang-extention/blob/main/logo/Kshitiz.png?raw=true",width="200">
 ## what is this extension and why it is made?
 This is vs code language extention and i made this extention for two purposes which i got in task 1 and task 2. i.e. 
 1.Bracket Color Matching
