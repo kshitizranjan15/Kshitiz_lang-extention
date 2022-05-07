@@ -58,3 +58,9 @@ pair will appear in red color.
  - After this type yo code in terminal and press enter
  - Now Create Whatever you wants to create
   
+# How Top Test or Run My kshitiz-lang extention
+  - Install Node Js,Yeoman in your System.
+  - Download VS Code.
+  - Clone Or Download Repository of Project From My Github.
+  - Open It Through Vs Code and Press F5 Then This Extention Will Run in your Vs Code.
+  
