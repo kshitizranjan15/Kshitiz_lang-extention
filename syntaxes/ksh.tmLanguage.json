@@ -6,16 +6,38 @@
         },
         {
             "include": "#strings"
+        },
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#rules"
+        },
+        {
+            "include": "#variables"
         }
     ],
     "repository": {
+        "comments": {
+            "patterns": [{
+                    "begin": "//",
+                    "end": "\n",
+                    "name": "comment.line.double-slash"
+                },
+                {
+                    "begin": "//*",
+                    "end": "/*/",
+                    "name": "comment.block"
+                }
+            ]
+        },
         "variables": {
             "match": "int|double|float|long|char|boolean|String|short",
             "name": "variable.language"
         },
         "keywords": {
             "patterns": [{
-                "name": "keyword.control.gram",
+                "name": "keyword.control.ksh",
                 "match": "\\b(if|else|do|while|for|return|ksh)\\b"
             }]
         },
@@ -58,7 +80,7 @@
                     }
                 },
                 {
-                    "name": "keyword.control.gram",
+                    "name": "keyword.control.ksh",
                     "match": "\\b(RULE|static|dynamic)\\b"
                 }
             ]
