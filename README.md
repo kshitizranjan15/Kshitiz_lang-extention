@@ -47,6 +47,10 @@ pair will appear in red color.
  in .kshitiz file after that whenever u will type 
  RULE <openApp> = open {dynamic:r} app; then afrer r you will get auto suggestion for rsetAlarm,rdatetime,rdate,rtime,rduration and rnumeric
  and if we will hover on this rules then it will redirect towards it's origin.
+  
+## Comments Supported In kshitiz-lang.
+  <ul> Single Line Comment Is Supported By //,and</ul>
+  <ul> Multiple Line Comment is With /* */</ul>
 
  # If you are also intersted in creating any language extention or vs code extention
  - First of install Node-js and git in your pc
