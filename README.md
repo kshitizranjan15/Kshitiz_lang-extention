@@ -1,17 +1,17 @@
 # Kshitiz_lang_extention
-### language extention:- .ksh
+### language extension:- .ksh
 ![](https://img.shields.io/badge/Language-Typescript-green)   
 ![](https://img.shields.io/badge/Tools-VscodeDevelopmentKit-red)   
 ![](https://img.shields.io/badge/Project-VsCodeLanguageSupport-blue)
 ## kshitiz-lang README
 In this file i will say how to use this kshitiz-lang extention and i made this extention for what purpose.
 
-## what is this extention and why it is made?
+## what is this extension and why it is made?
 This is vs code language extention and i made this extention for two purposes which i got in task 1 and task 2. i.e. 
 1.Bracket Color Matching
 2.Instellisense for core slots.
 
-## what we have to do before running this extention.
+## what we have to do before running this extension.
 Before Running This extention we have to install extentions of Bracket Pair Colorizer[Installation
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 ext install CoenraadS.bracket-pair-colorizer]
@@ -24,18 +24,18 @@ whilch will help code which written in launch.json for Bracket Color Matching.
 For Running this extention we should open launch.json or language-configuration.json or kshitiz.tmLanguage.json 
 and the press f5 or press on run button.
 
-## Variables of kshitiz-lang extention.
+## Variables of kshitiz-lang extension.
 int,double,float,long,char,boolean,String,short are variables of this language 
 
-## Keywords of kshitiz-lang extention.
+## Keywords of kshitiz-lang extension.
 if,else,do,while,for,return,ksh are key words of kshitiz-lang
 
-## How to use Bracket Pairing after running extention.
+## How to use Bracket Pairing after running extension.
 After running extention if we will gives brackets in pair like () , {}, [], [{()}] or in any pairing way
 then simirar brackets will appear in same color and if one of braces from pair is missing then other
 pair will appear in red color.
 
-## How to use Instellisense for core slots after running extention.
+## How to use Instellisense for core slots after running extension.
  <li><ul>In my extention i taken help of regex for writing static/dynamic rules which written in kshitiz.tmLanguage.json
  after running extention write</ul>
  <ul> RULE <openApp> = open {static:rsetAlarm} app;</ul>
