@@ -49,11 +49,12 @@ pair will appear in red color.
  and if we will hover on this rules then it will redirect towards it's origin.
   
 ## Comments Supported In kshitiz-lang.
-  <ul> Single Line Comment Is Supported By //,and</ul>
-  <ul> Multiple Line Comment is With /* */</ul>
+ - <ul> Single Line Comment Is Supported By //,and</ul>
+ - <ul> Multiple Line Comment is With /* */</ul>
 
  # If you are also intersted in creating any language extention or vs code extention
  - First of install Node-js and git in your pc
  - Then install Yeoman and VS Code Extension Generator with:npm install -g yo generator-code (Type this in Command prompt or terminal)
  - After this type yo code in terminal and press enter
  - Now Create Whatever you wants to create
+  
