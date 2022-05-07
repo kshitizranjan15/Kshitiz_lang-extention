@@ -9,7 +9,6 @@ In this file i will say how to use this kshitiz-lang extention and i made this e
 ### language extension:- .ksh
 ## Logo Of Language Extention:-
 <p align="center"><img src="https://github.com/kshitizranjan15/Kshitiz_lang-extention/blob/main/logo/Kshitiz.png?raw=true" width="200px"></img></p>
-<img src=", style="width:200px">
 ## what is this extension and why it is made?
 This is vs code language extention and i made this extention for two purposes which i got in task 1 and task 2. i.e. 
 1.Bracket Color Matching
